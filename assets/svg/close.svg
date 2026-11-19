@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-inject-url="https://korean.visitkorea.or.kr/resources/images/common/icon/svg/guide_close24.svg" aria-hidden="true" class="icon_svg_inject injectable">
 <path d="M6.06042 6.06036L17.9398 17.9397" stroke="#3D3D43" stroke-width="1.6" stroke-linecap="round"></path>
 <path d="M17.9396 6.06036L6.06023 17.9397" stroke="#3D3D43" stroke-width="1.6" stroke-linecap="round"></path>
+=======
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-inject-url="https://korean.visitkorea.or.kr/resources/images/common/icon/svg/guide_close24.svg" aria-hidden="true" class="icon_svg_inject injectable">
+<path d="M6.06042 6.06036L17.9398 17.9397" stroke="#3D3D43" stroke-width="1.6" stroke-linecap="round"></path>
+<path d="M17.9396 6.06036L6.06023 17.9397" stroke="#3D3D43" stroke-width="1.6" stroke-linecap="round"></path>
+>>>>>>> 25ac648e2606fe5582facd05d45cc1ffe05c8909
 </svg>
