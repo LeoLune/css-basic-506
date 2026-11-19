@@ -136,17 +136,47 @@ button:focus-visible {
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.01em;
-  line-height: 1;
+  line-height: 4.5;
 }
 
 .depth2-wrap {
   display: none;
 }
 
-.utils {
+.header-utils {
   position: relative;
+  display: flex;
+  height: 38px;
+  align-items: center;
+  gap: 12px;
 }
 
+.util-sub {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 100%;
+}
+
+.language-wrap {
+  position: relative;
+  background-color: blueviolet;
+  height: 100%;
+}
+
+.language-wrap > button {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.language-layer {
+  position: absolute;
+  left: 0;
+  top: 38px;
+  background-color: #fff;
+}
 .main {
   width: 100%;
   background-color: beige;
