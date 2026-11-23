@@ -12,6 +12,8 @@
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-gov-dynamic-subset.min.css"
     />
     <link rel="stylesheet" href="clone-exercise.css" />
+    <!-- 디자인 토큰(CSS 변수): 다른 CSS보다 먼저 연결 -->
+    <link rel="stylesheet" href="tokens.css" />
   </head>
   <body>
     <div class="wrap">
@@ -199,7 +201,22 @@
                   <em>해남에서 만나는 정원 속 여유</em>
                   <span class="view">
                     자세히 보기
-                    <img src="assets/svg/down.svg" alt="다운 아이콘" />
+                    <!-- <img src="assets/svg/down.svg" alt="다운 아이콘" /> -->
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19 9L12 16L5 9"
+                        stroke="#3D3D43"
+                        stroke-width="1.6"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
                   </span>
                 </a>
               </div>
@@ -217,7 +234,22 @@
                   <em>수험생 한정 할인 혜택&amp;선착순 선물까지!</em>
                   <span class="view">
                     자세히 보기
-                    <img src="assets/svg/down.svg" alt="다운 아이콘" />
+                    <!-- <img src="assets/svg/down.svg" alt="다운 아이콘" /> -->
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19 9L12 16L5 9"
+                        stroke="#3D3D43"
+                        stroke-width="1.6"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
                   </span>
                 </a>
               </div>
@@ -232,7 +264,22 @@
                   <em>대한민국 관광이 새로운 역사를 썼습니다</em>
                   <span class="view">
                     자세히 보기
-                    <img src="assets/svg/down.svg" alt="다운 아이콘" />
+                    <!-- <img src="assets/svg/down.svg" alt="다운 아이콘" /> -->
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19 9L12 16L5 9"
+                        stroke="#3D3D43"
+                        stroke-width="1.6"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
                   </span>
                 </a>
               </div>
@@ -241,13 +288,67 @@
             <!-- 이전 / 다음 버튼 -->
             <div class="nav-btn">
               <div class="swiper-button-prev">
-                <button class="swiper-button-prev" aria-label="이전 슬라이드">
-                  <img src="assets/svg/down.svg" alt="다운 아이콘" />
+                <button
+                  class="btn-pg-icon-full-lg-left"
+                  aria-label="이전 슬라이드"
+                >
+                  <!-- <img src="assets/svg/down.svg" alt="다운 아이콘" /> -->
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    data-inject-url="https://korean.visitkorea.or.kr/resources/images/common/icon/svg/guide_arrow_right24.svg"
+                    class="icon_svg_inject injectable"
+                  >
+                    <path
+                      d="M5 12L19 12"
+                      stroke="currentcolor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M12 5L19 12L12 19"
+                      stroke="currentcolor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
                 </button>
               </div>
               <div class="swiper-button-next">
-                <button class="swiper-button-next" aria-label="다음 슬라이드">
-                  <img src="assets/svg/down.svg" alt="다운 아이콘" />
+                <button
+                  class="btn-pg-icon-full-lg-right"
+                  aria-label="다음 슬라이드"
+                >
+                  <!-- <img src="assets/svg/down.svg" alt="다운 아이콘" /> -->
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    data-inject-url="https://korean.visitkorea.or.kr/resources/images/common/icon/svg/guide_arrow_right24.svg"
+                    class="icon_svg_inject injectable"
+                  >
+                    <path
+                      d="M5 12L19 12"
+                      stroke="currentcolor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M12 5L19 12L12 19"
+                      stroke="currentcolor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
                 </button>
               </div>
             </div>
